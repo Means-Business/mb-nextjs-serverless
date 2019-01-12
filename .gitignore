@@ -64,4 +64,4 @@ typings/
 
 # security
 serverless-vpc-variables.yml
-.env.local
+env/.env.local
