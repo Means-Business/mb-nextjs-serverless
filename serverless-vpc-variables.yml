@@ -1,20 +1,19 @@
 ---
-
-serviceName: "dog"
-baseDomain: "domain.io"
-region: "ap-southeast-1"
-accountId: "111111111111"
+serviceName: 'moocodingapi'
+baseDomain: 'moocoding.com'
+region: 'ap-southeast-1'
+accountId: '340545016932'
 
 subnetId:
   staging:
-    - "subnet-aaaaaaaa"
-    - "subnet-bbbbbbbb"
+    - 'subnet-074099ae0d668aff3'
+    - 'subnet-07c81b83a35a2b030'
   production:
-    - "subnet-cccccccc"
-    - "subnet-dddddddd"
+    - 'subnet-07f29669578e32369'
+    - 'subnet-074099ae0d668aff3'
 
 securityGroup:
   staging:
-    - "sg-eeeeeeee"
+    - 'sg-001f977470e2f8684'
   production:
-    - "sg-ffffffff"
+    - 'sg-0280809d48b42c6fd'
